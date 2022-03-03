@@ -49,6 +49,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 .list {
   padding-left: 0;
   margin-top: 0;
@@ -369,6 +373,37 @@ p:last-child {
 /* Team */
 .team {
   background-color: var(--secondary-bg--mode-light);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-member {
+  width: (calc(100% - 60px) / 3);
+  outline: 1px dashed red;
+}
+
+.team-member:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-box {
+  padding: 30px;
+  background-color: thistle;
+}
+
+.socials {
+  display: flex;
+}
+.socials-item {
+  width: (calc(100% - 30px) / 4);
+  margin-right: 10px;
+  background-color: rgba(220, 20, 60, 0.377);
+}
+
+.social-logo-svg {
+  fill: darkblue;
 }
 
 .team-headline {

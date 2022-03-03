@@ -183,16 +183,36 @@ img {
   color: var(--accent-cl);
 }
 
+
+/* Лого header */
+.logo{
+background-image: url(../images/Slider.png);
+content: '';
+}
+
+.header-logo{
+  fill:#1f6ea3;
+}
+
 /* Header */
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: var(--primary-bg--mode-dark);
+  /* background-color: var(--primary-bg--mode-dark); */
 }
+
 .header-container {
+  position: relative;
   display: flex;
   align-items: center;
 }
+
+/* .logo-container {
+position: absolute;
+top: 0;
+left: -70px;
+background-color: #ffe60057;
+} */
 
 .header-link {
   margin-right: 70px;
@@ -247,7 +267,7 @@ img {
 
 /* Hero */
 .hero {
-  background-color: var(--primary-bg--mode-dark);
+  /* background-color: var(--primary-bg--mode-dark); */
 }
 
 .hero-list {

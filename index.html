@@ -23,17 +23,17 @@
   </head>
   <body>
     <!-- Шапка сайта -->
+    <div class="logo">
     <header class="header">
       <div class="container header-container">
+        <div class="logo-container">
         <a class="header-link" href="./index.html">
-          <img
-            class="header-logo"
-            src="./images/icons/logo.svg"
-            alt="Лого"
-            width="68"
-            height="55"
-          />
+          <svg class="header-logo" width="69" height="55.5">
+            <use href="./images/icons.svg#logo"></use>
+          </svg>
         </a>
+        </div>
+        
         <nav class="nav">
           <ul class="nav-list list">
             <li class="nav-item">
@@ -95,6 +95,7 @@
           </ul>
         </div>
       </section>
+      </div>
 
       <!-- Секция О нас -->
       <section class="about section">

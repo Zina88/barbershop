@@ -692,13 +692,27 @@ img {
   margin-bottom: 53px;
 }
 
-.entry-name {
-  width: calc(100% / 2);
-  margin-right: 30px;
+input {
+  padding: 8px;
+  font-family: inherit;
 }
 
-.entry-phone {
-  width: calc(100% / 2);
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.form-entry {
+  display: flex;
+}
+
+.label-entry {
+  margin-right: 30px;
+  /* width: 270px; */
+}
+
+.label-message {
 }
 
 .entry-btn {

@@ -458,12 +458,25 @@
             <h2 class="entry-subtitle">Онлайн-запись</h2>
 
               <div class="entry-text-name">
-                <p class="entry-text entry-name">Имя</p>
-                <p class="entry-text entry-phone">Телефон</p>
+                <form class="form-entry">
+                  <label class="label-entry">
+                    Имя
+                    <input type="text" name="username" autofocus />
+                  </label>
+                   <label>
+                    Телефон
+                    <input type="phone" name="userphone" />
+                  </label>
+                </form>
               </div>
 
-            <p class="entry-text">Сообщение</p>
-            <button class="entry-btn">Отправить</button>
+            <form>
+              <label class="label-message">
+                Сообщение
+                <input type="text" name="message" />
+              </label>
+              <button class="entry-btn" type="submit">Отправить</button>
+            </form>
           </div>
 
           <div class="addres">

@@ -692,27 +692,30 @@ img {
   margin-bottom: 53px;
 }
 
-input {
-  padding: 8px;
-  font-family: inherit;
+.form-entry {
+  width: 560px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
 }
 
-.form-entry {
-  display: flex;
+input {
+  background-color: inherit;
+  border-style: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
 }
 
-.label-entry {
-  margin-right: 30px;
-  /* width: 270px; */
-}
-
-.label-message {
+textarea {
+  background-color: inherit;
+  color: rgba(157, 164, 189, 0.4);
+  border-style: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
 }
 
 .entry-btn {

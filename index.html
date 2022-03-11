@@ -457,27 +457,26 @@
           <div class="entry">
             <h2 class="entry-subtitle">Онлайн-запись</h2>
 
-              <div class="entry-text-name">
-                <form class="form-entry">
-                  <label class="label-entry">
-                    Имя
-                    <input type="text" name="username" autofocus />
-                  </label>
-                   <label>
-                    Телефон
-                    <input type="phone" name="userphone" />
-                  </label>
-                </form>
+          <form class="form-entry" autocomplete="off">
+            
+              <div class="form-field">
+                  <label class="form-label" for="name">Имя</label>
+                  <input class="form-input" type="text" name="name" id="name" autofocus />
+                  
+                  <label class="form-label" for="tel">Телефон</label>
+                  <input class="form-input" type="tel" name="tel" id="tel" />
               </div>
 
-            <form>
-              <label class="label-message">
-                Сообщение
-                <input type="text" name="message" />
-              </label>
+              <div class="form-field">
+                <label for="feedback"></label>
+                  <textarea class="label-message" name="feedback" id="feedback" rows="3">Сообщение</textarea>
+              </div>
+              
               <button class="entry-btn" type="submit">Отправить</button>
-            </form>
+          </form>
+
           </div>
+        </form>
 
           <div class="addres">
             <h2 class="title title-mode-dark">Контакты</h2>

@@ -460,16 +460,22 @@
           <form class="form-entry" autocomplete="off">
             
               <div class="form-field">
-                  <label class="form-label" for="name">Имя</label>
-                  <input class="form-input" type="text" name="name" id="name" autofocus />
+                <ul class="form-list">
+                  <li class="form-item">
+                    <label class="form-label" for="name">Имя</label>
+                   <input class="form-input" type="text" name="name" id="name" autofocus />
+                  </li>
                   
-                  <label class="form-label" for="tel">Телефон</label>
-                  <input class="form-input" type="tel" name="tel" id="tel" />
+                  <li class="form-item">
+                    <label class="form-label" for="tel">Телефон</label>
+                    <input class="form-input" type="tel" name="tel" id="tel" />
+                  </li>
+                  </ul>
               </div>
 
               <div class="form-field">
-                <label for="feedback"></label>
-                  <textarea class="label-message" name="feedback" id="feedback" rows="3">Сообщение</textarea>
+                <label for="feedback">Сообщение</label>
+                  <textarea class="label-message" name="feedback" id="feedback" rows="3"></textarea>
               </div>
               
               <button class="entry-btn" type="submit">Отправить</button>

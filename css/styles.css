@@ -693,7 +693,7 @@ img {
 }
 
 .form-entry {
-  width: 560px;
+  /* width: 560px; */
 }
 
 .form-field {
@@ -715,6 +715,7 @@ input {
   background-color: inherit;
   border-style: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  margin-bottom: 30px;
 }
 
 input:hover,
@@ -728,6 +729,7 @@ textarea {
   color: rgba(157, 164, 189, 0.4);
   border-style: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  margin-bottom: 30px;
 }
 
 textarea:hover,
@@ -735,6 +737,27 @@ textarea:focus {
   color: rgba(255, 255, 255, 1);
   border-style: none;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.form-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-item {
+  flex-basis: calc((100% - 30px) / 2);
+  margin-right: 30px;
+}
+
+.form-item:last-child {
+  margin-right: 0;
+}
+
+.form-item input {
+  width: 270px;
 }
 
 .entry-btn {

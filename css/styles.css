@@ -703,6 +703,12 @@ img {
 }
 
 label {
+  color: rgba(157, 164, 189, 0.4);
+}
+
+label:hover,
+label:focus {
+  color: rgba(255, 255, 255, 1);
 }
 
 input {
@@ -711,11 +717,24 @@ input {
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
 }
 
+input:hover,
+input:focus {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
 textarea {
   background-color: inherit;
   color: rgba(157, 164, 189, 0.4);
   border-style: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+
+textarea:hover,
+textarea:focus {
+  color: rgba(255, 255, 255, 1);
+  border-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 .entry-btn {
